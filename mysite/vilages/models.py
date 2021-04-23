@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+
+# Ограноци, врски и патишта кои поврзуваат се нарекуваат цдBranch, link and connecting roads, called Class-B roads, have three-digit numbers above 130.
+class LocalRoud(models.Model):
+    code = models.CharField(max_length=5)  # L80522
+    steam = models.CharField(max_length=4)  # R1107
