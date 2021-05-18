@@ -6,3 +6,5 @@ class LocalRoud(models.Model):
     edge = models.CharField(max_length=5)  # L80522
     steam = models.CharField(max_length=4)  # R1107
     distance = models.IntegerField()
+
+    # def
